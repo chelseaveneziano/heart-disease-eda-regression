@@ -16,10 +16,19 @@ Do age, sex, and cholesterol levels significantly affect resting blood pressure 
 ## Methods
 
 - **Descriptive statistics & histograms** — distributions of age, sex, chest pain type, resting blood pressure, and cholesterol.
+
+![Distribution overview: age, sex, chest pain type, resting blood pressure, and cholesterol](images/histogram-overview.png)
+
 - **PMF comparison** — probability mass function of chest pain type, comparing typical angina against other types.
 - **CDF analysis** — cumulative distribution of patient age.
+
+![CDF of patient age](images/cdf-age.png)
+  
 - **Distribution fitting** — normal distribution fit to cholesterol levels.
 - **Scatter plots & correlation analysis** — relationships between age, resting blood pressure, and cholesterol.
+
+![Age vs. resting blood pressure and age vs. cholesterol scatter plots](images/age-vs-bp-cholesterol-scatter.png)
+
 - **Hypothesis testing** — independent t-test comparing resting blood pressure between male and female patients.
 - **Regression analysis** — OLS regression modeling resting blood pressure as a function of age, sex, and cholesterol.
 
